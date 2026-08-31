@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <title>Contact Us - Karmkala Studio</title>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .heading-font {
+      font-family: 'Anton', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white">
+
+<!-- ================= HEADER ================= -->
+
+<header class="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md z-50 border-b border-gray-800">
+
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+
+    <!-- LOGO -->
+    <h1 class="text-xl md:text-2xl font-bold tracking-widest text-white uppercase font-[Anton] hover:text-red-500 transition duration-300">
+      KARMKALA STUDIO
+    </h1>
+
+    <!-- DESKTOP MENU -->
+    <nav class="hidden md:flex space-x-8 text-white font-[Montserrat] font-medium text-sm">
+
+      <a href="index.html" class="hover:text-red-500 transition duration-300">
+        Home
+      </a>
+
+      <a href="Artist.html" class="hover:text-red-500 transition duration-300">
+        Artist
+      </a>
+
+      <a href="Gallery.html" class="hover:text-red-500 transition duration-300">
+        Gallery
+      </a>
+
+      <a href="portfolio.html" class="hover:text-red-500 transition duration-300">
+        Portfolio
+      </a>
+
+      <a href="contact.html" class="text-red-500 transition duration-300">
+        Contact
+      </a>
+
+      <a href="Customer-Reviews.html" class="text-red-500 transition duration-300">
+        Customer-Reviews
+      </a>
+
+    </nav>
+
+    <!-- MOBILE MENU BUTTON -->
+    <button
+      id="menu-btn"
+      class="md:hidden text-white text-3xl focus:outline-none hover:text-red-500 transition">
+      ☰
+    </button>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden bg-black/95 backdrop-blur-xl border-t border-gray-800">
+
+    <nav class="flex flex-col text-center py-6 space-y-6 text-white font-[Montserrat]">
+
+      <a href="index.html" class="hover:text-red-500 transition text-lg">
+        Home
+      </a>
+
+      <a href="Artist.html" class="hover:text-red-500 transition text-lg">
+        Artist
+      </a>
+
+      <a href="Gallery.html" class="hover:text-red-500 transition text-lg">
+        Gallery
+      </a>
+
+      <a href="portfolio.html" class="hover:text-red-500 transition text-lg">
+        Portfolio
+      </a>
+
+      <a href="contact.html" class="text-red-500 transition text-lg">
+        Contact
+      </a>
+
+      <a href="Customer-Reviews.html" class="text-red-500 transition text-lg">
+        Customer-Reviews
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section
+  class="relative h-[60vh] flex items-center justify-center bg-cover bg-center"
+  style="background-image: url('about-banner.png');">
+
+  <!-- OVERLAY -->
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <!-- CONTENT -->
+  <div class="relative text-center px-4">
+
+    <h1 class="heading-font text-5xl md:text-7xl tracking-widest">
+      CONTACT US
+    </h1>
+
+    <p class="mt-4 text-gray-300 text-lg">
+      Let’s bring your tattoo ideas to life
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section class="py-20 px-6">
+
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
+
+
+    <!-- ================= LEFT INFO ================= -->
+
+    <div>
+
+      <h2 class="heading-font text-4xl mb-6 tracking-wide">
+        GET IN TOUCH
+      </h2>
+
+      <p class="text-gray-400 leading-7 mb-8">
+
+        Visit our Karmkala studio for custom tattoos,
+        canvas painting, and bleach art designs.
+        We create bold artistic experiences.
+
+      </p>
+
+
+      <!-- INFO BOX -->
+
+      <div class="space-y-6">
+
+
+        <!-- ADDRESS -->
+
+        <div class="flex items-start gap-4">
+
+          <div class="text-red-500 text-2xl">
+            📍
+          </div>
+
+          <div>
+
+            <h3 class="font-semibold text-lg">
+              Studio Address
+            </h3>
+
+            <p class="text-gray-400">
+
+              Karmkala Studio, 150 Feet Ring Road,<br>
+              Opposite KKV Hall, Mahavir Park,<br>
+              Rajkot, Gujarat, 360005
+
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- PHONE -->
+
+        <div class="flex items-start gap-4">
+
+          <div class="text-red-500 text-2xl">
+            📞
+          </div>
+
+          <div>
+
+            <h3 class="font-semibold text-lg">
+              Phone
+            </h3>
+
+            <p class="text-gray-400">
+              +91 6354 805 806
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- EMAIL -->
+
+        <div class="flex items-start gap-4">
+
+          <div class="text-red-500 text-2xl">
+            📧
+          </div>
+
+          <div>
+
+            <h3 class="font-semibold text-lg">
+              Email
+            </h3>
+
+            <p class="text-gray-400">
+              manthanpatel2702@gmail.com
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- HOURS -->
+
+        <div class="flex items-start gap-4">
+
+          <div class="text-red-500 text-2xl">
+            🕒
+          </div>
+
+          <div>
+
+            <h3 class="font-semibold text-lg">
+              Working Hours
+            </h3>
+
+            <p class="text-gray-400">
+              Mon - Sun : 10 AM - 9 PM
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <!-- ================= CONTACT FORM ================= -->
+
+    <div class="bg-[#111] p-8 rounded-2xl shadow-2xl">
+
+      <h2 class="heading-font text-3xl mb-6">
+        BOOK APPOINTMENT
+      </h2>
+
+
+      <form id="whatsappForm" class="space-y-5">
+
+
+        <!-- NAME -->
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Your Name"
+          required
+          class="w-full p-4 bg-black border border-gray-700 rounded-lg focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none">
+
+
+        <!-- EMAIL -->
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Your Email"
+          required
+          class="w-full p-4 bg-black border border-gray-700 rounded-lg focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none">
+
+
+        <!-- PHONE -->
+
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Phone Number"
+          required
+          class="w-full p-4 bg-black border border-gray-700 rounded-lg focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none">
+
+
+        <!-- MESSAGE -->
+
+        <textarea
+          id="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+          class="w-full p-4 bg-black border border-gray-700 rounded-lg focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none"></textarea>
+
+
+        <!-- SEND BUTTON -->
+
+        <button
+          type="submit"
+          class="w-full bg-green-600 hover:bg-green-700 active:scale-95 transition duration-300 py-4 rounded-lg font-semibold tracking-wide">
+
+          📱 SEND MESSAGE ON WHATSAPP
+
+        </button>
+
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= MAP ================= -->
+
+<section class="py-16">
+
+  <div class="w-full h-[400px]">
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4581.103763306422!2d70.7722028!3d22.2854737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca31a151521f%3A0x149eeb8aa9bd9847!2sNakshatra%20-2%2C%20New%20College%20Wadi%2C%20Rajkot%2C%20Gujarat%20360005!5e1!3m2!1sen!2sin!4v1777096864857!5m2!1sen!2sin"
+      width="100%"
+      height="450"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SUCCESS NOTIFICATION ================= -->
+
+<div
+  id="successNotification"
+  class="hidden fixed top-24 right-5 z-[9999] bg-[#111] border border-green-500 rounded-xl shadow-2xl px-6 py-4">
+
+  <div class="flex items-center gap-3">
+
+    <div class="text-3xl">
+      ✅
+    </div>
+
+    <div>
+
+      <h3 class="font-bold text-green-400">
+        Message Successful!
+      </h3>
+
+      <p class="text-sm text-gray-300">
+        Opening WhatsApp...
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="border-t border-gray-800 py-8 text-center bg-black">
+
+  <div class="flex justify-center gap-6 text-2xl mb-4">
+
+    <a
+      href="#"
+      class="hover:text-red-500 transition text-gray-400">
+      📷
+    </a>
+
+    <a
+      href="#"
+      class="hover:text-red-500 transition text-gray-400">
+      📘
+    </a>
+
+    <a
+      href="#"
+      class="hover:text-red-500 transition text-gray-400">
+      💬
+    </a>
+
+  </div>
+
+  <p class="text-gray-500 text-sm font-[Montserrat]">
+    © 2026 Karmkala Studio. All Rights Reserved.
+  </p>
+
+</footer>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+  /* ================= MOBILE MENU ================= */
+
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", function () {
+
+    mobileMenu.classList.toggle("hidden");
+
+  });
+
+
+  /* ================= WHATSAPP FORM ================= */
+
+  const whatsappForm = document.getElementById("whatsappForm");
+
+  whatsappForm.addEventListener("submit", function (event) {
+
+    event.preventDefault();
+
+
+    /* GET FORM DATA */
+
+    const name =
+      document.getElementById("name").value.trim();
+
+    const email =
+      document.getElementById("email").value.trim();
+
+    const phone =
+      document.getElementById("phone").value.trim();
+
+    const message =
+      document.getElementById("message").value.trim();
+
+
+    /* WHATSAPP NUMBER */
+
+    const whatsappNumber = "916354805806";
+
+
+    /* WHATSAPP MESSAGE */
+
+    const whatsappMessage =
+`Hello Karmkala Studio 👋
+
+I want to book an appointment.
+
+👤 Name: ${name}
+📧 Email: ${email}
+📞 Phone: ${phone}
+
+💬 Message:
+${message}
+
+Thank you.`;
+
+
+
+    /* CREATE WHATSAPP URL */
+
+    const whatsappURL =
+      "https://wa.me/" +
+      whatsappNumber +
+      "?text=" +
+      encodeURIComponent(whatsappMessage);
+
+
+
+    /* SHOW SUCCESS NOTIFICATION */
+
+    const successNotification =
+      document.getElementById("successNotification");
+
+    successNotification.classList.remove("hidden");
+
+
+
+    /* OPEN WHATSAPP AFTER 1 SECOND */
+
+    setTimeout(function () {
+
+      window.open(whatsappURL, "_blank");
+
+    }, 1000);
+
+
+
+    /* CLEAR FORM */
+
+    whatsappForm.reset();
+
+  });
+
+</script>
+
+
+</body>
+</html>

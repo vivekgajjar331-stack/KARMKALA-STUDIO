@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Artist - Karmkala Studio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .heading-font {
+      font-family: 'Anton', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .artist-image {
+      transition: transform 0.6s ease;
+    }
+
+    .artist-card:hover .artist-image {
+      transform: scale(1.05);
+    }
+  </style>
+
+</head>
+
+
+<body class="bg-black text-white">
+
+
+<!-- ================================================= -->
+<!-- HEADER -->
+<!-- ================================================= -->
+
+<header
+  class="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md z-50 border-b border-gray-800">
+
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+
+    <!-- LOGO -->
+
+    <h1
+      class="text-xl md:text-2xl font-bold tracking-widest uppercase font-[Anton] hover:text-red-500 transition">
+
+      KARMKALA STUDIO
+
+    </h1>
+
+
+    <!-- DESKTOP MENU -->
+
+    <nav
+      class="hidden md:flex space-x-8 font-[Montserrat] font-medium text-sm">
+
+      <a href="index.html"
+        class="hover:text-red-500 transition">
+        Home
+      </a>
+
+      <a href="Artist.html"
+        class="text-red-500">
+        Artist
+      </a>
+
+      <a href="Gallery.html"
+        class="hover:text-red-500 transition">
+        Gallery
+      </a>
+
+      <a href="portfolio.html"
+        class="hover:text-red-500 transition">
+        Portfolio
+      </a>
+
+      <a href="contact.html"
+        class="hover:text-red-500 transition">
+        Contact
+      </a>
+
+      <a href="Customer-Reviews.html"
+        class="hover:text-red-500 transition">
+        Customer-Reviews
+      </a>
+
+    </nav>
+
+
+    <!-- MOBILE BUTTON -->
+
+    <button
+      id="menu-btn"
+      class="md:hidden text-white text-3xl hover:text-red-500">
+
+      ☰
+
+    </button>
+
+  </div>
+
+
+  <!-- MOBILE MENU -->
+
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden bg-black/95 border-t border-gray-800">
+
+    <nav
+      class="flex flex-col text-center py-6 space-y-6 font-[Montserrat]">
+
+      <a href="index.html"
+        class="hover:text-red-500 text-lg">
+        Home
+      </a>
+
+      <a href="Artist.html"
+        class="text-red-500 text-lg">
+        Artist
+      </a>
+
+      <a href="Gallery.html"
+        class="hover:text-red-500 text-lg">
+        Gallery
+      </a>
+
+      <a href="portfolio.html"
+        class="hover:text-red-500 text-lg">
+        Portfolio
+      </a>
+
+      <a href="contact.html"
+        class="hover:text-red-500 text-lg">
+        Contact
+      </a>
+
+      <a href="Customer-Reviews.html"
+        class="hover:text-red-500 text-lg">
+        Customer-Reviews
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+<!-- ================================================= -->
+<!-- HERO -->
+<!-- ================================================= -->
+
+<section
+  class="relative min-h-[65vh] flex items-center justify-center bg-cover bg-center"
+  style="background-image:url('about-banner.png');">
+
+  <div class="absolute inset-0 bg-black/80"></div>
+
+
+  <div
+    class="relative z-10 text-center px-6 pt-32 pb-20">
+
+    <p
+      class="text-red-500 uppercase tracking-[5px] font-semibold mb-4">
+
+      Karmkala Studio
+
+    </p>
+
+
+    <h1
+      class="heading-font text-6xl md:text-8xl tracking-widest">
+
+      THE ARTIST
+
+    </h1>
+
+
+    <div
+      class="w-20 h-[2px] bg-red-600 mx-auto my-8">
+    </div>
+
+
+    <p
+      class="text-gray-300 max-w-2xl mx-auto text-lg leading-8">
+
+      Meet the artist behind Karmkala Studio —
+      turning ideas, stories and imagination into
+      unique works of art.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- ARTIST PROFILE -->
+<!-- ================================================= -->
+
+<section
+  class="py-24 px-6">
+
+  <div
+    class="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+
+
+    <!-- ARTIST IMAGE -->
+
+    <div
+      class="artist-card overflow-hidden rounded-2xl border border-gray-800 shadow-2xl">
+
+      <img
+        src="Manthan Patel.png"
+        alt="Karmkala Studio Artist"
+        class="artist-image w-full h-[550px] object-cover">
+
+    </div>
+
+
+    <!-- ARTIST INFO -->
+
+    <div>
+
+      <p
+        class="text-red-500 uppercase tracking-[4px] text-sm font-semibold">
+
+        Founder & Artist
+
+      </p>
+
+
+      <h2
+        class="heading-font text-5xl md:text-6xl tracking-wide mt-3">
+
+        MANTHAN PATEL
+
+      </h2>
+
+
+      <div
+        class="w-16 h-[2px] bg-red-600 my-6">
+      </div>
+
+
+      <p
+        class="text-gray-300 leading-8 mb-5">
+
+        Art is more than just drawing or designing.
+        It is a way of expressing emotions, stories
+        and personality.
+
+      </p>
+
+
+      <p
+        class="text-gray-400 leading-8">
+
+        THE ARTIST BEHIND KARMAKALA
+
+I am a young, self-taught artist from Rajkot, driven by curiosity, imagination and the freedom to create without limits.
+
+I never wanted to be defined by just one form of art. From tattooing skin to painting on canvas, designing clothes and creating bleach art, I believe every surface has its own story waiting to be told.
+
+Karmakala Studio is more than a studio to me.
+It is a space where ideas become art, experiments become creations, and every piece carries a part of my vision.
+
+<b>No boundaries. No fixed medium. Just art.</b>
+
+      </p>
+
+
+      <!-- EXPERIENCE -->
+
+      <div
+        class="grid grid-cols-2 gap-5 mt-8">
+
+
+        <div
+          class="border border-gray-800 bg-[#111] p-5 rounded-xl">
+
+          <h3
+            class="text-3xl font-bold text-red-500">
+
+            5+
+
+          </h3>
+
+          <p
+            class="text-gray-500 text-sm mt-1">
+
+            Art Styles
+
+          </p>
+
+        </div>
+
+
+        <div
+          class="border border-gray-800 bg-[#111] p-5 rounded-xl">
+
+          <h3
+            class="text-3xl font-bold text-red-500">
+
+            100+
+
+          </h3>
+
+          <p
+            class="text-gray-500 text-sm mt-1">
+
+            Artworks
+
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+      <!-- BUTTON -->
+
+      <a
+        href="contact.html"
+        class="inline-block bg-red-600 hover:bg-red-700 px-8 py-4 rounded-lg font-semibold mt-8 transition">
+
+        BOOK AN APPOINTMENT
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- SPECIALITIES -->
+<!-- ================================================= -->
+
+<section
+  class="py-24 px-6 bg-[#080808] border-y border-gray-800">
+
+  <div
+    class="max-w-6xl mx-auto">
+
+
+    <!-- TITLE -->
+
+    <div
+      class="text-center mb-14">
+
+      <h2
+        class="heading-font text-4xl md:text-5xl">
+
+        ARTIST SPECIALITIES
+
+      </h2>
+
+      <p
+        class="text-gray-400 mt-4">
+
+        Different mediums. One creative vision.
+
+      </p>
+
+    </div>
+
+
+    <!-- GRID -->
+
+    <div
+      class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+
+      <!-- TATTOO -->
+
+      <div
+        class="text-center p-7 bg-black border border-gray-800 rounded-xl hover:border-red-600 hover:-translate-y-2 transition">
+
+        <div
+          class="text-5xl mb-4">
+
+          🖋️
+
+        </div>
+
+        <h3
+          class="font-semibold text-lg">
+
+          Tattoo
+
+        </h3>
+
+        <p
+          class="text-gray-500 text-sm mt-2">
+
+          Custom tattoo artwork
+
+        </p>
+
+      </div>
+
+
+      <!-- CANVAS -->
+
+      <div
+        class="text-center p-7 bg-black border border-gray-800 rounded-xl hover:border-red-600 hover:-translate-y-2 transition">
+
+        <div
+          class="text-5xl mb-4">
+
+          🎨
+
+        </div>
+
+        <h3
+          class="font-semibold text-lg">
+
+          Canvas
+
+        </h3>
+
+        <p
+          class="text-gray-500 text-sm mt-2">
+
+          Original paintings
+
+        </p>
+
+      </div>
+
+
+      <!-- CHARCOAL -->
+
+      <div
+        class="text-center p-7 bg-black border border-gray-800 rounded-xl hover:border-red-600 hover:-translate-y-2 transition">
+
+        <div
+          class="text-5xl mb-4">
+
+          ✏️
+
+        </div>
+
+        <h3
+          class="font-semibold text-lg">
+
+          Charcoal
+
+        </h3>
+
+        <p
+          class="text-gray-500 text-sm mt-2">
+
+          Realistic sketches
+
+        </p>
+
+      </div>
+
+
+      <!-- CLOTHES -->
+
+      <div
+        class="text-center p-7 bg-black border border-gray-800 rounded-xl hover:border-red-600 hover:-translate-y-2 transition">
+
+        <div
+          class="text-5xl mb-4">
+
+          👕
+          
+        </div>
+
+        <h3
+          class="font-semibold text-lg">
+
+          Fabric
+
+        </h3>
+
+        <p
+          class="text-gray-500 text-sm mt-2">
+
+          Clothing artwork
+
+        </p>
+
+      </div>
+
+
+      <!-- BLEACH -->
+
+      <div
+        class="text-center p-7 bg-black border border-gray-800 rounded-xl hover:border-red-600 hover:-translate-y-2 transition">
+
+        <div
+          class="text-5xl mb-4">
+
+          🧴
+
+        </div>
+
+        <h3
+          class="font-semibold text-lg">
+
+          Bleach Art
+
+        </h3>
+
+        <p
+          class="text-gray-500 text-sm mt-2">
+
+          Fabric bleach designs
+
+        </p>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- ARTIST PHILOSOPHY -->
+<!-- ================================================= -->
+
+<section
+  class="py-24 px-6">
+
+  <div
+    class="max-w-4xl mx-auto text-center">
+
+
+    <p
+      class="text-red-500 uppercase tracking-[4px] text-sm font-semibold">
+
+      Artist Philosophy
+
+    </p>
+
+
+    <h2
+      class="heading-font text-4xl md:text-6xl mt-4">
+
+      "EVERY ARTWORK TELLS A STORY."
+
+    </h2>
+
+
+    <p
+      class="text-gray-400 leading-8 mt-7">
+
+      Whether it is a tattoo on your skin,
+      a painting on canvas, a charcoal portrait,
+      a design on fabric or bleach artwork,
+      every creation is made to represent
+      something meaningful and personal.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- CTA -->
+<!-- ================================================= -->
+
+<section
+  class="py-24 px-6 bg-[#080808] border-t border-gray-800">
+
+  <div
+    class="max-w-4xl mx-auto text-center">
+
+    <h2
+      class="heading-font text-4xl md:text-6xl">
+
+      LET'S CREATE SOMETHING UNIQUE
+
+    </h2>
+
+
+    <p
+      class="text-gray-400 mt-5 mb-8">
+
+      Have an idea for your next artwork?
+
+    </p>
+
+
+    <a
+      href="contact.html"
+      class="inline-block bg-red-600 hover:bg-red-700 px-10 py-4 rounded-lg font-semibold transition">
+
+      CONTACT THE ARTIST
+
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
+
+<footer
+  class="border-t border-gray-800 py-8 text-center bg-black">
+
+  <div
+    class="flex justify-center gap-6 text-2xl mb-4">
+
+    <a
+      href="#"
+      class="hover:text-red-500 transition text-gray-400">
+      📷
+    </a>
+
+    <a
+      href="#"
+      class="hover:text-red-500 transition text-gray-400">
+      📘
+    </a>
+
+    <a
+      href="#"
+      class="hover:text-red-500 transition text-gray-400">
+      💬
+    </a>
+
+  </div>
+
+
+  <p
+    class="text-gray-500 text-sm font-[Montserrat]">
+
+    © 2026 Karmkala Studio. All Rights Reserved.
+
+  </p>
+
+</footer>
+
+
+
+<!-- ================================================= -->
+<!-- JAVASCRIPT -->
+<!-- ================================================= -->
+
+<script>
+
+  const menuBtn =
+    document.getElementById("menu-btn");
+
+  const mobileMenu =
+    document.getElementById("mobile-menu");
+
+
+  menuBtn.addEventListener("click", function () {
+
+    mobileMenu.classList.toggle("hidden");
+
+  });
+
+
+  // Close menu after clicking link
+
+  const mobileLinks =
+    mobileMenu.querySelectorAll("a");
+
+
+  mobileLinks.forEach(function (link) {
+
+    link.addEventListener("click", function () {
+
+      mobileMenu.classList.add("hidden");
+
+    });
+
+  });
+
+</script>
+
+
+</body>
+</html>

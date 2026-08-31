@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio - Karmkala Studio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .heading-font {
+      font-family: 'Anton', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .portfolio-card {
+      transition: all 0.3s ease;
+    }
+
+    .portfolio-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .portfolio-card img {
+      transition: transform 0.5s ease;
+    }
+
+    .portfolio-card:hover img {
+      transform: scale(1.08);
+    }
+  </style>
+
+</head>
+
+
+<body class="bg-black text-white">
+
+
+<!-- ================================================= -->
+<!-- HEADER -->
+<!-- ================================================= -->
+
+<header
+  class="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md z-50 border-b border-gray-800">
+
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+
+    <!-- LOGO -->
+    <h1
+      class="text-xl md:text-2xl font-bold tracking-widest text-white uppercase font-[Anton] hover:text-red-500 transition duration-300">
+      KARMKALA STUDIO
+    </h1>
+
+
+    <!-- DESKTOP MENU -->
+    <nav
+      class="hidden md:flex space-x-8 text-white font-[Montserrat] font-medium text-sm">
+
+      <a href="index.html" class="hover:text-red-500 transition">
+        Home
+      </a>
+
+      <a href="Artist.html" class="hover:text-red-500 transition">
+        Artist
+      </a>
+
+      <a href="Gallery.html" class="hover:text-red-500 transition">
+        Gallery
+      </a>
+
+      <a href="portfolio.html" class="text-red-500">
+        Portfolio
+      </a>
+
+      <a href="contact.html" class="hover:text-red-500 transition">
+        Contact
+      </a>
+
+      <a href="Customer-Reviews.html" class="hover:text-red-500 transition">
+        Customer-Reviews
+      </a>
+
+    </nav>
+
+
+    <!-- MOBILE BUTTON -->
+    <button
+      id="menu-btn"
+      class="md:hidden text-white text-3xl hover:text-red-500">
+      ☰
+    </button>
+
+  </div>
+
+
+  <!-- MOBILE MENU -->
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden bg-black/95 border-t border-gray-800">
+
+    <nav
+      class="flex flex-col text-center py-6 space-y-6 font-[Montserrat]">
+
+      <a href="index.html" class="hover:text-red-500">
+        Home
+      </a>
+
+      <a href="Artist.html" class="hover:text-red-500">
+        Artist
+      </a>
+
+      <a href="Gallery.html" class="hover:text-red-500">
+        Gallery
+      </a>
+
+      <a href="portfolio.html" class="text-red-500">
+        Portfolio
+      </a>
+
+      <a href="contact.html" class="hover:text-red-500">
+        Contact
+      </a>
+
+      <a href="Customer-Reviews.html" class="hover:text-red-500">
+        Customer-Reviews
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+<!-- ================================================= -->
+<!-- PORTFOLIO TITLE -->
+<!-- ================================================= -->
+
+<section class="pt-36 pb-16 text-center px-4">
+
+  <h2
+    class="text-5xl md:text-7xl font-[Anton] tracking-widest">
+    PORTFOLIO
+  </h2>
+
+  <p class="text-gray-400 mt-4 text-lg">
+    Explore Our Creative Work
+  </p>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- CATEGORY BUTTONS -->
+<!-- ================================================= -->
+
+<section class="pb-16 px-6">
+
+  <div class="max-w-6xl mx-auto">
+
+    <div class="flex flex-wrap justify-center gap-4">
+
+      <a
+        href="#tattoo"
+        class="px-6 py-3 border border-red-600 text-red-500 rounded-full hover:bg-red-600 hover:text-white transition">
+        🖋️ Tattoo
+      </a>
+
+      <a
+        href="#canvas"
+        class="px-6 py-3 border border-red-600 text-red-500 rounded-full hover:bg-red-600 hover:text-white transition">
+        🎨 Canvas Painting
+      </a>
+
+      <a
+        href="#charcoal"
+        class="px-6 py-3 border border-red-600 text-red-500 rounded-full hover:bg-red-600 hover:text-white transition">
+        ✏️ Charcoal Sketch
+      </a>
+
+      <a
+        href="#clothes"
+        class="px-6 py-3 border border-red-600 text-red-500 rounded-full hover:bg-red-600 hover:text-white transition">
+        👕 Clothes Design
+      </a>
+
+      <a
+        href="#bleach"
+        class="px-6 py-3 border border-red-600 text-red-500 rounded-full hover:bg-red-600 hover:text-white transition">
+        🧴 Bleach Art
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- TATTOO SECTION -->
+<!-- ================================================= -->
+
+<section
+  id="tattoo"
+  class="py-20 px-6 border-t border-gray-800">
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center mb-12">
+
+      <h2
+        class="heading-font text-4xl md:text-5xl tracking-wide">
+        🖋️ TATTOO
+      </h2>
+
+      <p class="text-gray-400 mt-3">
+        Custom tattoo artwork created by Karmkala Studio
+      </p>
+
+    </div>
+
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+      <!-- Tattoo 1 -->
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="Ram.png"
+            alt="Tattoo Design"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Black Ink Tattoo
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Custom black ink artwork.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Tattoo 2 -->
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="krishna.png"
+            alt="Tattoo Design"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Fine Line Tattoo
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Detailed fine-line tattoo design.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Tattoo 3 -->
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="krishna1.png"
+            alt="Tattoo Design"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Artistic Tattoo
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Unique custom tattoo artwork.
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- CANVAS PAINTING -->
+<!-- ================================================= -->
+
+<section
+  id="canvas"
+  class="py-20 px-6 bg-[#080808] border-t border-gray-800">
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center mb-12">
+
+      <h2
+        class="heading-font text-4xl md:text-5xl">
+        🎨 CANVAS PAINTING
+      </h2>
+
+      <p class="text-gray-400 mt-3">
+        Original canvas paintings and artistic creations
+      </p>
+
+    </div>
+
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="7 hoursh.png"
+            alt="Canvas Painting"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+           7-Hoursh
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Modern abstract canvas artwork.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="Karma-Dharma.png"
+            alt="Canvas Painting"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Karma & Dharma
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Hand-painted portrait on canvas.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="Hoursh.png"
+            alt="Canvas Painting"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Creative Art
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Original creative canvas artwork.
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- CHARCOAL SKETCH -->
+<!-- ================================================= -->
+
+<section
+  id="charcoal"
+  class="py-20 px-6 border-t border-gray-800">
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center mb-12">
+
+      <h2
+        class="heading-font text-4xl md:text-5xl">
+        ✏️ SKETCH WITH CHARCOAL
+      </h2>
+
+      <p class="text-gray-400 mt-3">
+        Detailed charcoal sketches and portraits
+      </p>
+
+    </div>
+
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+      <!-- Image 1 -->
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            src="Hanuman-Dada.png"
+            alt="Charcoal Sketch"
+            onclick="openImage(this.src)"
+            class="w-full h-full object-cover cursor-pointer hover:scale-105 transition duration-500">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Hanuman Ji 
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Charcoal & GoldFoil
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Image 2 -->
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            src="Heer.png"
+            alt="Charcoal Sketch"
+            onclick="openImage(this.src)"
+            class="w-full h-full object-cover cursor-pointer hover:scale-105 transition duration-500">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Realistic Sketch
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Realistic charcoal artwork.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Image 3 -->
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            src="Radha Krishna.png"
+            alt="Charcoal Sketch"
+            onclick="openImage(this.src)"
+            class="w-full h-full object-cover cursor-pointer hover:scale-105 transition duration-500">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Madhurya
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+           Charcoal & GoldFoil
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+<!-- ================================================= -->
+<!-- CLOTHES DESIGN -->
+<!-- ================================================= -->
+
+<section
+  id="clothes"
+  class="py-20 px-6 bg-[#080808] border-t border-gray-800">
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center mb-12">
+
+      <h2
+        class="heading-font text-4xl md:text-5xl">
+        👕 CLOTHES DESIGN & FABRIC
+      </h2>
+
+      <p class="text-gray-400 mt-3">
+        Custom clothing and fabric artwork
+      </p>
+
+    </div>
+
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="cloth-3.png"
+            alt="Clothes Design"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Custom Fabric Art
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Artistic fabric customization.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="cloth-2.png"
+            alt="Clothes Design"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            T-Shirt Artwork
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Custom artwork on clothing.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="cloth-4.png"
+            alt="Fabric Design"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Fabric Design
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Creative custom fabric design.
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- BLEACH ART -->
+<!-- ================================================= -->
+
+<section
+  id="bleach"
+  class="py-20 px-6 border-t border-gray-800">
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="text-center mb-12">
+
+      <h2
+        class="heading-font text-4xl md:text-5xl">
+        🧴 BLEACH ART
+      </h2>
+
+      <p class="text-gray-400 mt-3">
+        Unique bleach artwork on dark fabrics
+      </p>
+
+    </div>
+
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="blech1.png"
+            alt="Bleach Art"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Bleach Portrait
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Portrait created using bleach.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="blech2.png"
+            alt="Bleach Art"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Bleach Design
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            Creative bleach fabric artwork.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="portfolio-card bg-[#111] rounded-2xl overflow-hidden border border-gray-800">
+
+        <div class="h-80 overflow-hidden">
+
+          <img
+            onclick="openImage(this.src)"
+            src="blech3.png"
+            alt="Bleach Art"
+            class="w-full h-full object-cover cursor-pointer">
+
+        </div>
+
+        <div class="p-5">
+
+          <h3 class="text-xl font-semibold">
+            Custom Bleach Art
+          </h3>
+
+          <p class="text-gray-400 text-sm mt-2">
+            One-of-a-kind bleach artwork.
+          </p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<!-- ================================================= -->
+<!-- FULL IMAGE VIEWER -->
+<!-- ================================================= -->
+
+<div
+  id="imageModal"
+  class="fixed inset-0 bg-black/95 hidden items-center justify-center z-[9999] p-4"
+  onclick="closeImage(event)">
+
+  <!-- Close Button -->
+  <button
+    type="button"
+    onclick="closeImage()"
+    aria-label="Close image"
+    class="absolute top-4 right-6 md:top-6 md:right-8 text-white text-5xl leading-none font-light hover:text-red-500 transition z-[10000]">
+    &times;
+  </button>
+
+  <!-- Full Image -->
+  <img
+    id="fullImage"
+    src=""
+    alt="Full Image"
+    class="max-w-full max-h-[92vh] object-contain rounded-lg shadow-2xl cursor-default"
+    onclick="event.stopPropagation()">
+
+</div>
+
+<script>
+  function openImage(imageSrc) {
+    const modal = document.getElementById("imageModal");
+    const fullImage = document.getElementById("fullImage");
+
+    fullImage.src = imageSrc;
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeImage(event) {
+    // Close only when the black background is clicked.
+    if (event && event.target.id !== "imageModal") {
+      return;
+    }
+
+    const modal = document.getElementById("imageModal");
+    const fullImage = document.getElementById("fullImage");
+
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+    fullImage.src = "";
+
+    document.body.style.overflow = "";
+  }
+
+  // ESC key closes the full image.
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+      closeImage();
+    }
+  });
+</script>
+
+
+<!-- ================================================= -->
+<!-- CTA -->
+<!-- ================================================= -->
+
+<section class="py-24 px-6 bg-[#080808] border-t border-gray-800">
+
+  <div class="max-w-4xl mx-auto text-center">
+
+    <h2 class="heading-font text-4xl md:text-5xl">
+      WANT YOUR OWN ARTWORK?
+    </h2>
+
+    <p class="text-gray-400 mt-5 mb-8">
+      Contact Karmkala Studio and let's create something unique together.
+    </p>
+
+    <a
+      href="contact.html"
+      class="inline-block bg-red-600 hover:bg-red-700 px-8 py-4 rounded-lg font-semibold transition">
+
+      BOOK AN APPOINTMENT
+
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
+
+<footer
+  class="border-t border-gray-800 py-8 text-center bg-black">
+
+  <div class="flex justify-center gap-6 text-2xl mb-4">
+
+    <a href="#" class="hover:text-red-500 text-gray-400">
+      📷
+    </a>
+
+    <a href="#" class="hover:text-red-500 text-gray-400">
+      📘
+    </a>
+
+    <a href="#" class="hover:text-red-500 text-gray-400">
+      💬
+    </a>
+
+  </div>
+
+  <p class="text-gray-500 text-sm font-[Montserrat]">
+    © 2026 Karmkala Studio. All Rights Reserved.
+  </p>
+
+</footer>
+
+
+
+<!-- ================================================= -->
+<!-- JAVASCRIPT -->
+<!-- ================================================= -->
+
+<script>
+
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", function () {
+
+    mobileMenu.classList.toggle("hidden");
+
+  });
+
+
+  // Close mobile menu after clicking a link
+
+  const mobileLinks =
+    mobileMenu.querySelectorAll("a");
+
+  mobileLinks.forEach(function (link) {
+
+    link.addEventListener("click", function () {
+
+      mobileMenu.classList.add("hidden");
+
+    });
+
+  });
+
+</script>
+
+
+</body>
+</html>
